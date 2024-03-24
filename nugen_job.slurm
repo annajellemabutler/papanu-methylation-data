@@ -4,8 +4,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16GB
 #SBATCH --time=3-00:00:00
-#SBATCH --mail-user=anna.jellemabutler@gmail.com
-#SBATCH --mail-type=ALL
 #SBATCH --output=~/papanu/NuGENoutput/nugentrim_job_%j.out
 #SBATCH --error=~/papanu/NuGENoutput/nugentrim_job_%j.err
 
