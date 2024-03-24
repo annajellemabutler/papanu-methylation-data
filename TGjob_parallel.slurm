@@ -7,8 +7,6 @@
 #SBATCH --ntasks-per-node=2
 #SBATCH --mem=32G
 #SBATCH --time=24:00:00
-#SBATCH --mail-user=jellema-butler@ucsb.edu
-#SBATCH --mail-type=BEGIN,END,FAIL
 
 # Specify output directory
 output_dir="/home/annajellema/papanu/TGoutput"
